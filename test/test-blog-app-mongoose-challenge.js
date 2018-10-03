@@ -81,7 +81,6 @@ describe('BlogPost API resource', function(){
         it('should post new data to the database', function(){
 
             const newBlogPost = generateBlogPostData();
-            console.log("AAAAHHHHHHH");
             console.log(newBlogPost)
             
             return chai.request(app)
